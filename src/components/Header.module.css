@@ -1,0 +1,44 @@
+/* src/components/Header.module.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: #1a1a1a; /* Темный фон */
+    color: #ffffff; /* Белый текст */
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.registerLink {
+    color: #ff4500; /* Оранжевый цвет ссылки */
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+.registerLink:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+.logoutButton {
+    background-color: #ff4500; /* Оранжевая кнопка */
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.logoutButton:hover {
+    background-color: #e63900; /* Тёмная оранжевая кнопка при наведении */
+}

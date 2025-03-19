@@ -1,0 +1,14 @@
+/* src/App.module.css */
+
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Минимальная высота страницы равна высоте экрана */
+}
+
+.main {
+    flex: 1; /* Основной контент занимает все доступное пространство */
+    padding: 16px;
+    background-color: #282828; /* Средний темный фон */
+    color: #ffffff; /* Белый текст */
+}

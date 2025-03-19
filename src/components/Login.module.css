@@ -1,0 +1,60 @@
+/* src/components/Login.module.css */
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a; /* Темный фон */
+}
+
+.loginForm {
+    background-color: #282828; /* Средний темный фон */
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color: #ffffff; /* Белый текст */
+}
+
+.loginForm h2 {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.formGroup {
+    margin-bottom: 16px;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.formGroup input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #1a1a1a; /* Темный фон для инпутов */
+    color: #ffffff; /* Белый текст */
+}
+
+.formGroup input:focus {
+    outline: none;
+    border-color: #ff4500; /* Оранжевая рамка при фокусе */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4500; /* Оранжевая кнопка */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e63900; /* Тёмная оранжевая кнопка при наведении */
+}
